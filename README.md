@@ -21,3 +21,17 @@ DB_NAME
 DB_PASSWORD
 DB_PORT
 FILE_PATH
+
+## Walkthrough
+* Upload CSV
+    - User can directly upload CSV
+    - If not provided, CSV from filepath in env will be used
+
+    <p align="center"><img src="https://github.com/PremKarira/csv-to-sql-api/blob/main/images/upload.png?raw=true"></p><br>
+ 
+* Results
+    - Shows nested json data from the first row of csv
+    - Also show corresponding values for SQL insert query 
+    - Age distribution is also reported below them
+
+    <p align="center"><img src="https://github.com/PremKarira/csv-to-sql-api/blob/main/images/result.png?raw=true"></p><br>
