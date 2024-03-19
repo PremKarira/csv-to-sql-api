@@ -24,6 +24,11 @@ FILE_PATH
 
 ```
 
+## Assumptions
+1. tab (\t) is the delimiter for csv.
+2. id in database is automatically incremented by 1 for every insert query.
+
+
 ## Walkthrough
 * Upload CSV
     - User can directly upload CSV
